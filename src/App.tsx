@@ -6,6 +6,7 @@ import {Footer} from "./site/Footer";
 import {NewComponent} from "./map/NewComponent";
 import {Cars} from "./map/Cars";
 import {Btn} from "./Btn/Btn";
+import {UseStateComponent} from "./useState/UseStateComponent";
 
 function App() {
     const students = [
@@ -27,6 +28,7 @@ function App() {
             <NewComponent students={students}/>
             <Cars topCars={topCars}/>
             <Btn/>
+            <UseStateComponent/>
         </>
     );
 }
