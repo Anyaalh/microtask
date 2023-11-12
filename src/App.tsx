@@ -7,6 +7,7 @@ import {NewComponent} from "./map/NewComponent";
 import {Cars} from "./map/Cars";
 import {Btn} from "./Btn/Btn";
 import {UseStateComponent} from "./useState/UseStateComponent";
+import {Money} from "./filter/Money";
 
 function App() {
     const students = [
@@ -29,6 +30,7 @@ function App() {
             <Cars topCars={topCars}/>
             <Btn/>
             <UseStateComponent/>
+            <Money/>
         </>
     );
 }
